@@ -34,8 +34,8 @@ public class Fraction {
 	}
 
 	public boolean greaterEqual(Fraction comp) {
-		float value1 = numerator / denominator;
-		float value2 = comp.getNumerator() / comp.getDenominator();
+		double value1 = (double) numerator / denominator;
+		double value2 = (double) comp.getNumerator() / comp.getDenominator();
 		return value1 >= value2 ? true : false;
 	}
 }
